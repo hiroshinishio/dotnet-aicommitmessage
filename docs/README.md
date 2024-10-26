@@ -1,5 +1,4 @@
 # Documentation
-
 Refer to `semantic-versioning.md` for details on the automated semantic versioning in commit messages.
 Refer to `documentation.md` for documentation updates.
 Refer to `prepare-commit-msg.md` for details on the prepare commit message hook.
