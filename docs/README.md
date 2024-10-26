@@ -4,6 +4,7 @@ Refer to `semantic-versioning.md` for details on the automated semantic versioni
 Refer to `documentation.md` for documentation updates.
 Refer to `prepare-commit-msg.md` for details on the prepare commit message hook.
 Refer to `README.md` for an overview of the documentation structure.
+Refer to `index.md` for a complete list of documentation files.
 Refer to `backward-compatibility.md` for backward compatibility information.
 Refer to `usage.md` for usage instructions.
 Refer to `configuration.md` for configuration options.
