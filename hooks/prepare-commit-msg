@@ -1,0 +1,9 @@
+#!/bin/sh
+
+# Append semantic versioning to commit messages
+COMMIT_MSG_FILE=$1
+
+# Append +semver: minor to the commit message
+echo "\n+semver: minor" >> $COMMIT_MSG_FILE
+
+exit 0
