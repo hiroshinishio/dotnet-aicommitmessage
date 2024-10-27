@@ -8,3 +8,4 @@ To ensure the DeepSource analysis works correctly, you need to set up the `DEEPS
 2. Go to **Settings** > **Secrets and variables** > **Actions**.
 
 
+# ![GIT Hooks + OpenAI - Generate GIT commit messages from OpenAI](https://raw.githubusercontent.com/guibranco/dotnet-aicommitmessage/main/docs/images/splash.png)
