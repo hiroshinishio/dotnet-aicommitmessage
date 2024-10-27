@@ -26,7 +26,7 @@ jobs:
 
       - name: Build and analyze
         env:
-          DEEPSOURCE_DSN: ${{ secrets.DEEPSOURCE_DSN }}
+          DEEPSOURCE_DSN: ${{ secrets.DEEPSOURCE_DSN }} # Ensure this secret is set in the repository settings
         run: |
           dotnet build -c Release --verbosity minimal
           dotnet test -c Release --verbosity minimal --no-build --no-restore /p:CollectCoverage=true /p:CoverletOutputFormat="cobertura" /p:CoverletOutput='../Results/'
