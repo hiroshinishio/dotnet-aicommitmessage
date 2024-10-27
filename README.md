@@ -1,3 +1,10 @@
+# Setting up DeepSource DSN
+
+To ensure the DeepSource analysis works correctly, you need to set up the `DEEPSOURCE_DSN` secret in your GitHub repository.
+
+1. Navigate to your GitHub repository.
+2. Go to **Settings** > **Secrets and variables** > **Actions**.
+3. Click on **New repository secret** and add `DEEPSOURCE_DSN` with the appropriate value.
 # ![GIT Hooks + OpenAI - Generate GIT commit messages from OpenAI](https://raw.githubusercontent.com/guibranco/dotnet-aicommitmessage/main/docs/images/splash.png)
 
 🧠 🧰 This tool generates AI-powered commit messages via Git hooks, automating meaningful message suggestions from OpenAI and others to improve commit quality and efficiency.
