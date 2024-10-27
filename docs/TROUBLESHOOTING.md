@@ -8,3 +8,4 @@ If you encounter an error indicating that the `DEEPSOURCE_DSN` is not set, follo
 2. Go to **Settings** > **Secrets and variables** > **Actions**.
 
 
+# ![GIT Hooks + OpenAI - Generate GIT commit messages from OpenAI](https://raw.githubusercontent.com/guibranco/dotnet-aicommitmessage/main/docs/images/splash.png)
