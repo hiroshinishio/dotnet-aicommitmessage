@@ -1,5 +1,15 @@
 #!/bin/sh
 
+# Extract the commit message type
+COMMIT_MSG_TYPE=$(grep -oE '^(feat|fix|chore)' $1)
+
+# Determine if a minor version bump is needed
+if [ "$COMMIT_MSG_TYPE" = "feat" ]; then
+  # Logic to increment minor version
+  echo "Minor version bump needed"
+fi
+#!/bin/sh
+
 # This script generates an AI-powered commit message using dotnet-aicommitmessage.  
 # It can be bypassed by setting the GIT_AICOMMIT_SKIP environment variable.  
 
